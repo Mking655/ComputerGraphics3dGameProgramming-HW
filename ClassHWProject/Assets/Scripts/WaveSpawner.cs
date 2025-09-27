@@ -12,7 +12,7 @@ public class WaveSpawner : MonoBehaviour
 
     void Start()
     {
-        WavesManager.instance.Waves.Add(this);
+        WavesManager.instance.AddWave(this);
         InvokeRepeating("Spawn", startTime, spawnRate);
         Invoke("CancelInvoke", endTime);
         Destroy(gameObject, destroyDelay);
@@ -25,6 +25,6 @@ public class WaveSpawner : MonoBehaviour
     private void OnDestroy()
     {
         CancelInvoke();
-        WavesManager.instance.Waves.Remove(this);
+        WavesManager.instance.RemoveWave(this);
     }
 }
