@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class WavesGameMode : MonoBehaviour
 {
     [SerializeField] private Life playerLife;
-    private void Awake()
+    private void Start()
     {
         playerLife.onDeath.AddListener(OnPlayerDied);
         EnemiesManager.instance.OnChanged.AddListener(CheckWinContition);
