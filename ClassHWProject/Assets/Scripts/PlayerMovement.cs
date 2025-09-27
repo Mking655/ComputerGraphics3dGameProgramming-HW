@@ -12,10 +12,14 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movementValue;
     private float lookValue;
 
-    private void Start()
+    private Rigidbody rb;
+
+    private void Awake()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        rb = GetComponent<Rigidbody>();
     }
 
     public void OnMove(InputValue value)
@@ -38,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         float mouseX = Input.GetAxis("Mouse X");
         transform.Rotate(0, mouseX * rotationSpeed * Time.deltaTime, 0);
         */
-        transform.Translate(movementValue.x * Time.deltaTime, 0, movementValue.y * Time.deltaTime);
-        transform.Rotate(0, lookValue * Time.deltaTime, 0);
+        rb.AddRelativeForce(movementValue.x * Time.deltaTime, 0, movementValue.y * Time.deltaTime);
+        rb.AddRelativeTorque(0, lookValue * Time.deltaTime, 0);
     }
 }
