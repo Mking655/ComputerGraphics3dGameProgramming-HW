@@ -12,3 +12,8 @@ To test functionality, simply open the chapter 9 scene and examine components fo
 Chapters 3, 4, and 10 have been completed.
 
 To test fucnitonality, open scenes titled "Chapter 3", "Chapter 4", "Chapter 10". Textures, shader graphs, and materials are located in the Art -> Textures folder.
+
+10/24/2025 Homework 5:
+Chapters 11, 12, and 13 have been completed.
+
+To test fucnitonality, open scenes titled "Chapter 11", "Chapter 12+13". All paticle prefabs are in the art -> SFX folder. To examine the post processing, click on the "--PP Volume" object in scene "Chapter 12+13"
