@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: dc0b01097ef7149a78369b057a98f3c8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 171305
+  packageName: 5 Tracks - Essential Music & Ambients
+  packageVersion: 1.0
+  assetPath: Assets/5 Tracks - Essential Music & Ambients/Track 2 - Action Loop (1min
+    31s).aif
+  uploadId: 374342
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 2
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 2
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

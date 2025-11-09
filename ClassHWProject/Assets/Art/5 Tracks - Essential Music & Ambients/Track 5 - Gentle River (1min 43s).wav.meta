@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 13a52836e2ace4c0c87ec3eaf5dcf4b0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 171305
+  packageName: 5 Tracks - Essential Music & Ambients
+  packageVersion: 1.0
+  assetPath: Assets/5 Tracks - Essential Music & Ambients/Track 5 - Gentle River
+    (1min 43s).wav
+  uploadId: 374342
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 7
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 2
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 2
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
