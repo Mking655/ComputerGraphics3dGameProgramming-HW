@@ -17,3 +17,8 @@ To test fucnitonality, open scenes titled "Chapter 3", "Chapter 4", "Chapter 10"
 Chapters 11, 12, and 13 have been completed.
 
 To test fucnitonality, open scenes titled "Chapter 11", "Chapter 12+13". All paticle prefabs are in the art -> SFX folder. To examine the post processing, click on the "--PP Volume" object in scene "Chapter 12+13"
+
+11/9/2025 Homework 6:
+Chapters 14, 15 have been completed.
+
+To test funcitonality, open up respective scenes. Chapter 13 requires you to left click to test explosion. Chapter 14 includes basic UI elements with pause menu.
