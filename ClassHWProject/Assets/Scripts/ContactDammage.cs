@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class ContactDammage : MonoBehaviour
 {
-    public float dammage;
+    public float damage;
     private void OnTriggerEnter(Collider other)
     {
         Life life = other.GetComponent<Life>();
 
         if(life != null)
         {
-            life.ammount -= dammage;
+            life.amount -= damage;
         }
         Destroy(gameObject);
     }

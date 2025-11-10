@@ -3,16 +3,11 @@ using UnityEngine.UI;
 
 public class LifeBar : MonoBehaviour
 {
-    Image image;
+    public Image image;
     public Life targetLife;
 
-    void Awake()
-    {
-        image = GetComponent<Image>();
-    }
-
     void Update()
-    {
-        image.fillAmount = targetLife.ammount / 100;
+    {   
+        image.fillAmount = targetLife.amount / 100;
     }
 }
