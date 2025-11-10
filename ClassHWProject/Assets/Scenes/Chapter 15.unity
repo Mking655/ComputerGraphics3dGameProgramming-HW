@@ -852,6 +852,10 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5756264400457349793, guid: f378040cf9cb8844ab3e8991ee0bc493, type: 3}
+      propertyPath: amount
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5756264400457349793, guid: f378040cf9cb8844ab3e8991ee0bc493, type: 3}
       propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -981,7 +985,6 @@ GameObject:
   - component: {fileID: 668686890}
   - component: {fileID: 668686892}
   - component: {fileID: 668686891}
-  - component: {fileID: 668686893}
   m_Layer: 5
   m_Name: Pause
   m_TagString: Untagged
@@ -1049,21 +1052,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668686889}
   m_CullTransparentMesh: 1
---- !u!114 &668686893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668686889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55b439a4958b01747960c29256a1b13e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isPaused: 0
-  unpausedStuff: {fileID: 0}
-  pausedStuff: {fileID: 0}
 --- !u!1 &682834829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,6 +1135,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9130378594207980909, guid: a53fa1f636a988e478ca10dbeba54ca4, type: 3}
+      propertyPath: amount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3622921976011140800, guid: a53fa1f636a988e478ca10dbeba54ca4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.0032449
@@ -1602,7 +1594,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 825849483}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1275299217}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+        m_MethodName: unPause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &825849483
 MonoBehaviour:
   m_ObjectHideFlags: 0
